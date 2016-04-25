@@ -135,10 +135,7 @@
    /* NEON optimizations are to be at least considered by libpng, so enable the
     * callbacks to do this.
     */
-    
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa asjdhfad
-    asdfjhadsf
-    aksdj
+
 #  define PNG_FILTER_OPTIMIZATIONS png_init_filter_functions_neon
 
    /* By default the 'intrinsics' code in arm/filter_neon_intrinsics.c is used
