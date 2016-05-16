@@ -642,6 +642,7 @@ if( __androidAbiIdx EQUAL -1 )
 endif()
 unset( __androidAbiIdx )
 
+message(STATUS "ANDROID_ABI=${ANDROID_ABI}")
 # set target ABI options
 if( ANDROID_ABI STREQUAL "x86" )
  set( X86 true )
